@@ -3,15 +3,21 @@ body{
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
-section{
+.display-flex{
     display: flex;
-    background-color: rgb(247, 234, 236);
+}
+.main-section{
+    
+    background-image: url(images/bg-image/banner.jpg);
 }
 a{
     text-decoration: none;
 }
 h1{
     font-size: 50px;
+}
+p{
+    font-size: bold;
 }
 span{
     color:orange
